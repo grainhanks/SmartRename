@@ -1,6 +1,5 @@
 class Translation(object):
-    START_TEXT = """Hello,
-This is a Smart Rename Bot! Developed by @Grainhanks
+    START_TEXT = """Hello {}, I am Smart Rename Bot! Developed by @Grainhanks
 <b>Please send me any Telegram file and reply to that file to /rename New Name.mkv</b>
 
 /help for more details.."""
@@ -21,12 +20,11 @@ This is a Smart Rename Bot! Developed by @Grainhanks
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    HELP_USER = """Hey I am Smart Rename Bot..
-
+    HELP_USER = """
 	Steps to use :-    
 	Step 1. Upload or forward any video or file.
 	Step 2. Upload thumbnail image.
-	Step 3. Reply to that video by using "/rename" <New.name.extension>.
+	Step 3. Reply to that video "/rename" New name.extension.
 
 Use /deletethumbnail to clear your custom thumbnail.
 """
