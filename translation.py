@@ -22,10 +22,13 @@ This is a Smart Rename Bot! Developed by @Grainhanks
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     HELP_USER = """Hey I am Smart Rename Bot..
-    
-Step 1. Upload/Forward any video file.
-Step 2. Upload thumbnail file.
-Step 3. Reply to that video - /rename new name.extension.
+
+	Steps to use :-    
+	Step 1. Upload or forward any video or file.
+	Step 2. Upload thumbnail image.
+	Step 3. Reply to that video by using "/rename" <New.name.extension>.
+
+Use /deletethumbnail to clear your custom thumbnail.
 """
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to `/rename New Name.extension` with custom thumbnail support.."
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
