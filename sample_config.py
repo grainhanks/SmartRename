@@ -27,9 +27,9 @@ class Config(object):
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
     OUO_IO_API_KEY = ""
     # maximum message length in Telegram
-    MAX_MESSAGE_LENGTH = 4096
+    MAX_MESSAGE_LENGTH = 40960
     # set timeout for subprocess
-    PROCESS_MAX_TIMEOUT = 3600
+    PROCESS_MAX_TIMEOUT = 36000
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # Sql Database url
